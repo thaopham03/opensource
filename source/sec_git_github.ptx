@@ -677,7 +677,7 @@ How big are these slings and in particular, these arrows?</pre><!--</div attr= c
 				</paragraphs>
 			</paragraphs>
 
-			<paragraphs xml:id="_mentions_and_notifications">
+			<subsubsection xml:id="_mentions_and_notifications">
 				<title>Mentions and Notifications</title>
 
 <!-- div attr= class="paragraph"-->
@@ -782,7 +782,7 @@ How big are these slings and in particular, these arrows?</pre><!--</div attr= c
 						</paragraphs>
 					</paragraphs>
 				</paragraphs>
-			</paragraphs>
+			</subsubsection>
 
 			<paragraphs xml:id="_special_files">
 				<title>Special Files</title>

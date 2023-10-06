@@ -23,7 +23,7 @@
       <p>
       First, follow the directions given in <xref ref="subsec-getting_terminal"/> to open a terminal window so you can use your shell. All of the shell commands will be typed in this terminal window.
       </p>
-      <paragraphs>
+      <subsubsection>
         <title>Introduction to Shell Commands</title>
         <p>
         </p>
@@ -95,8 +95,8 @@
      The reason you see something like this is because the SHELL environment variable stores the location of the shell program. This location, called the <term>file path</term>, is given in the form of the path needed to find the location. We explore how this path is described in the next section. 
      </p>
 
-  </paragraphs>
-    <paragraphs>
+  </subsubsection>
+    <subsubsection>
       <title>Files and File Systems</title>
       <p>
       </p>
@@ -157,7 +157,7 @@
         You should see a listing of files and directories.
       </p>
 
-      </paragraphs>
+      </subsubsection>
       <paragraphs>
         <title>Shell Command Options</title>
         <p>
@@ -243,7 +243,7 @@ lrwxrwxrwx  1 root    pearcej      7 Mar 24  2022 bin -> usr/bin
       ls -lra
       </pre>
   </paragraphs>
-  <paragraphs>
+  <subsubsection>
     <title>Creating and Removing Directories</title>
     <p>
     </p>
@@ -333,8 +333,8 @@ lrwxrwxrwx  1 root    pearcej      7 Mar 24  2022 bin -> usr/bin
   pwd
   </pre>
 
-  </paragraphs>
-  <paragraphs>
+  </subsubsection>
+  <subsubsection>
     <title>Input and Output Redirection</title>
     <p>
     </p>
@@ -484,7 +484,7 @@ wc -w &lt; temp.txt
    Try it! This is an improvement because it is faster and avoids the use of a temporary file.
 </p>
 
-</paragraphs>
+</subsubsection>
 
 <paragraphs>
   <title>Scripts</title>
@@ -615,7 +615,7 @@ rm -i newfile4.txt
 And, if you respond with "n", then the removal will not happen. 
 </p>
   </paragraphs>
-<paragraphs>
+<subsubsection>
   <title>A few time-saving shell commands</title>
   <p>
     
@@ -681,7 +681,7 @@ rm: remove regular file 'newfile2_cp.txt'?
 <p>
 As you can see, these search patterns give you a lot of power and control. 
   </p>
-  </paragraphs>
+  </subsubsection>
 
 </subsection>
 

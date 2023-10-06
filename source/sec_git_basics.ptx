@@ -378,7 +378,7 @@ M  lib/simplegit.rb
 <!-- div attr= class="sect3"-->
 			</paragraphs>
 
-			<paragraphs xml:id="_ignoring">
+			<subsubsection xml:id="_ignoring">
 				<title>Ignoring Files</title>
 
 <!-- div attr= class="paragraph"-->
@@ -512,7 +512,7 @@ doc/**/*.pdf</pre><!--</div attr= class="content">--><!--</div attr= class="list
 				</p><!--</div attr= class="paragraph">-->
 
 <!-- div attr= class="sect3"-->
-			</paragraphs>
+			</subsubsection>
 
 			<paragraphs xml:id="_git_diff_staged">
 				<title>Viewing Your Staged and Unstaged Changes</title>
@@ -775,7 +775,7 @@ $ git commit -a -m 'Add new benchmarks'
 <!-- div attr= class="sect3"-->
 			</paragraphs>
 
-			<paragraphs xml:id="_removing_files">
+			<subsubsection xml:id="_removing_files">
 				<title>Removing Files</title>
 
 <!-- div attr= class="paragraph"-->
@@ -845,20 +845,18 @@ Changes to be committed:
 <!-- div attr= class="paragraph"-->
 				<p>
 					Note the backslash (<c>\</c>) in front of the <c>*</c>. This is necessary because Git does its own filename expansion in addition to your shell’s filename expansion. This command removes all files that have the <c>.log</c> extension in the <c>log/</c> directory. Or, you can do something like this:
-				</p>
 
 				<pre>$ git rm \*~</pre><!--</div attr= class="content">--><!--</div attr= class="listingblock">-->
-
-				<p>
-					This command removes all files whose names end with a <c>~</c>.
 				<notation>
 					<usage><m>\backslash</m></usage>
 					<description>backslash - escape character</description>
 				</notation>
 				</p>
-
+				<p>
+					This command removes all files whose names end with a <c>~</c>.
+				</p>
 <!-- div attr= class="sect3"-->
-			</paragraphs>
+			</subsubsection>
 
 			<paragraphs xml:id="_git_mv">
 				<title>Moving Files</title>
